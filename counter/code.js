@@ -4,6 +4,8 @@ let count = 0 ;
 
 const value =document.querySelector("#value") ; 
 const btns = document.querySelectorAll(".btn") ;  //devuelve un nodelist(como una array pero de nodos) para iterar que no esta vivo(osea que no se edita)
+
+
 btns.forEach(function(btn)  {
     btn.addEventListener("click", function(e)
     {   
